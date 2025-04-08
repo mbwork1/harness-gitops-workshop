@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_mbwork1_harness_gitops_workshop_1744079051638-push-trigger-input-set
+  identifier: Build_mbwork1_harness_gitops_workshop_1744079051638pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_mbwork1_harness_gitops_workshop_1744079051638
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
